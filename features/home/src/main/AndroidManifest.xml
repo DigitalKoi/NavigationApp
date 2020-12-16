@@ -4,8 +4,8 @@
     package="com.digitalkoi.dynamicfeatures.home">
 
     <dist:module
-        dist:instant="true"
-        dist:title="@string/feature_home">
+        dist:instant="true" >
+<!--        dist:title="@string/feature_home" >-->
         <dist:delivery>
             <dist:install-time />
         </dist:delivery>
