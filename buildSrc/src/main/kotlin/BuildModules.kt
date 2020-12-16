@@ -4,12 +4,11 @@
 object BuildModules {
     const val APP = ":app"
     const val CORE = ":core"
+    const val NAVIGATION = ":navigation"
 
     object Features {
         // TODO: change how you need
         const val HOME = ":features:home"
-        const val CHARACTERS_LIST = ":features:characters_list"
-        const val CHARACTERS_FAVORITES = ":features:characters_favorites"
     }
 
     object Commons {
