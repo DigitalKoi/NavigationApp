@@ -4,7 +4,6 @@
 object BuildModules {
     const val APP = ":app"
     const val CORE = ":core"
-    const val NAVIGATION = ":navigation"
 
     object Features {
         // TODO: change how you need
@@ -14,6 +13,7 @@ object BuildModules {
     object Commons {
         const val UI = ":commons:ui"
         const val VIEWS = ":commons:views"
+        const val NAVIGATION = ":commons:navigation"
     }
 
     object Libraries {
