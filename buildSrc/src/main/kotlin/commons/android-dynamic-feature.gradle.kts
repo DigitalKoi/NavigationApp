@@ -93,7 +93,7 @@ junitJacoco {
 dependencies {
     implementation(project(BuildModules.APP))
     implementation(project(BuildModules.Commons.NAVIGATION))
-//    implementation(project(BuildModules.Commons.UI))
+    implementation(project(BuildModules.Commons.UI))
 
     implementation(Dependencies.KOTLIN)
     implementation(Dependencies.APPCOMPAT)
@@ -114,6 +114,6 @@ dependencies {
     kapt(AnnotationProcessorsDependencies.DATABINDING)
     kapt(AnnotationProcessorsDependencies.ROOM)
 
-//    testImplementation(project(BuildModules.Libraries.TEST_UTILS))
+    testImplementation(project(BuildModules.Libraries.TEST_UTILS))
     addTestsDependencies()
 }

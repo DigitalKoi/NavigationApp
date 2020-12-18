@@ -88,6 +88,6 @@ dependencies {
 
     kapt(AnnotationProcessorsDependencies.DAGGER)
 
-//    testImplementation(project(BuildModules.Libraries.TEST_UTILS))
+    testImplementation(project(BuildModules.Libraries.TEST_UTILS))
     addTestsDependencies()
 }
