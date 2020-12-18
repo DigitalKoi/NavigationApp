@@ -1,6 +1,7 @@
 include(
     ":app",
     ":features:home",
+    ":features:list",
     ":commons:navigation"
 )
 

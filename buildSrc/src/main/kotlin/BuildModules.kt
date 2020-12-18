@@ -6,8 +6,8 @@ object BuildModules {
     const val CORE = ":core"
 
     object Features {
-        // TODO: change how you need
         const val HOME = ":features:home"
+        const val LIST = ":features:list"
     }
 
     object Commons {
