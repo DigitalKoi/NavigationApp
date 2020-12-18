@@ -9,7 +9,7 @@ class Navigator(
 
 
     override fun showFirstScreen() {
-        navController.navigate(R.id.)
+        TODO("Not yet implemented")
     }
 
     override fun showSecondScreen() {
